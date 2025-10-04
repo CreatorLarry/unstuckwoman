@@ -46,7 +46,7 @@ export default function Navbar() {
   return (
     <nav className={`custom-navbar ${scrolled ? 'shrink' : ''}`} id="navbar">
       <div className="container d-flex justify-content-between align-items-center">
-        <Link href="https://www.theunstuckwoman.com/" className="brand">
+        <Link href="/" className="brand">
           Unstuck Woman
         </Link>
         <button 
@@ -66,7 +66,7 @@ export default function Navbar() {
           <li><Link href="/" onClick={() => setOpen(false)}>Home</Link></li>
           <li><Link href="/#brochures" onClick={() => setOpen(false)}>Resources</Link></li>
           <li><Link href="/#testimonials" onClick={() => setOpen(false)}>Testimonials</Link></li>
-          <li><Link href="/#blogs" onClick={() => setOpen(false)}>Blogs</Link></li>
+          <li><Link href="/blog" onClick={() => setOpen(false)}>Blogs</Link></li>
           <li><Link href="/#gallery" onClick={() => setOpen(false)}>Pictorial</Link></li>
           <li><Link href="/#contact" onClick={() => setOpen(false)}>Contact</Link></li>
           <li className="social-icons">
