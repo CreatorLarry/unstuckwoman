@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Unstuck Woman</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Lato:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/lightgallery@2.7.1/css/lightgallery-bundle.min.css"
+    />
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <nav class="custom-navbar" id="navbar">
+      <div class="container d-flex justify-content-between align-items-center">
+        <a href="#home" class="brand">Unstuck Woman</a>
+        <button class="menu-toggle" id="menuToggle">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#home" target="_blank">Home</a></li>
+          <li><a href="#brochures">Resources</a></li>
+          <li><a href="#testimonials">Testimonials</a></li>
+          <li><a href="#blogs">Blogs</a></li>
+          <li><a href="#gallery">Pictorial</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li class="social-icons">
+            <a href="https://www.linkedin.com/in/mindsetcoachmargaretmungai"
+              ><i class="fab fa-linkedin-in"></i
+            ></a>
+            <a href="https://www.instagram.com/madgemungai/"
+              ><i class="fab fa-instagram"></i
+            ></a>
+            <a href="https://www.facebook.com/madgemungai/"
+              ><i class="fab fa-facebook"></i
+            ></a>
+            <a href="https://www.tiktok.com/@madgemungai"
+              ><i class="fab fa-tiktok"></i
+            ></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    
+    <section class="container py-5">
+      <h2 class="text-center mb-4">Our Blog</h2>
+      <div class="row" id="blog-list">
+        <!-- Blog cards will load here dynamically -->
+      </div>
+    </section>
+
+    <!-- Contact / CTA -->
+    <section class="contact-section" id="contact">
+      <div class="container">
+        <h2 class="section-title">Get In Touch</h2>
+        <p class="section-subtitle">
+          Book a free clarity call, ask a question, or just say hello — I’d love
+          to hear from you.
+        </p>
+
+        <div class="contact-wrapper">
+          <form
+            action="https://formspree.io/f/meokyzbe"
+            method="POST"
+            class="contact-form"
+          >
+            <div class="form-group">
+              <input
+                type="text"
+                name="name"
+                placeholder="Your Full Name"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <input
+                type="email"
+                name="email"
+                placeholder="Your Email Address"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <textarea
+                name="message"
+                rows="5"
+                placeholder="Your Message..."
+                required
+              ></textarea>
+            </div>
+            <button type="submit" class="btn-primary">
+              Start Your Journey
+            </button>
+          </form>
+
+          <div class="contact-details">
+            <p>
+              <strong>Email:</strong>
+              <a href="mailto:mungaicoach@gmail.com">mungaicoach@gmail.com</a>
+            </p>
+            <p>
+              <strong>Phone / WhatsApp:</strong>
+              <a href="https://wa.me/254716239006" target="_blank"
+                >+254 716 239006</a
+              >
+            </p>
+            <p><strong>Follow:</strong></p>
+            <div class="social-icons">
+              <a href="https://www.instagram.com/madgemungai" target="_blank"
+                ><i class="fab fa-instagram"></i
+              ></a>
+              <a href="https://www.facebook.com/madgemungai" target="_blank"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+              <a
+                href="https://www.linkedin.com/in/mindsetcoachmargaretmungai"
+                target="_blank"
+                ><i class="fab fa-linkedin-in"></i
+              ></a>
+              <a href="https://www.tiktok.com/@madgemungai" target="_blank"
+                ><i class="fab fa-tiktok"></i
+              ></a>
+            </div>
+            <a
+              href="https://calendly.com/mungaicoach/clarity-call"
+              target="_blank"
+              ><button type="submit" class="btn-primary mt-3">
+                Book A Clarity Call
+              </button></a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <a href="https://wa.me/254716239006" class="whatsapp-float" target="_blank">
+      <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <div class="section-divider">
+      <svg viewBox="0 0 1440 100" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0,0 C720,100 720,0 1440,100 L1440,00 L0,0 Z" fill="#fff" />
+      </svg>
+    </div>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div class="footer-brand">
+          <h3>Margaret Mungai</h3>
+          <p>
+            Helping you reset, reclaim and rise with clarity, confidence, and
+            purpose.
+          </p>
+        </div>
+
+        <div class="footer-links">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#home" target="_blank">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <!-- <li><a href="#services">Services</a></li> -->
+            <li>
+              <a href="https://www.margaretmungai.com/">Margaret Mungai</a>
+            </li>
+            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-social">
+          <h4>Connect</h4>
+          <div class="social-icons">
+            <a href="https://www.instagram.com/madgemungai/" target="_blank"
+              ><i class="fab fa-instagram"></i
+            ></a>
+            <a href="https://www.facebook.com/madgemungai/" target="_blank"
+              ><i class="fab fa-facebook-f"></i
+            ></a>
+            <a href="https://www.tiktok.com/@madgemungai" target="_blank"
+              ><i class="fab fa-tiktok"></i
+            ></a>
+            <a
+              href="https://www.linkedin.com/in/mindsetcoachmargaretmungai"
+              target="_blank"
+              ><i class="fab fa-linkedin-in"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>
+          &copy; <span id="year"></span> Margaret Mungai. All rights reserved.
+        </p>
+        <!-- ❤️  -->
+        <p class="dev-credit small">
+          Developed with by
+          <a
+            href="https://www.instagram.com/art_your_dreams_designs?igsh=MWt6aDZqOG9nZzA2bg=="
+            target="_blank"
+            >Art Your Dreams</a
+          >
+        </p>
+      </div>
+    </footer>
+
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+
+    <!-- LightGallery JS -->
+    <script src="https://cdn.jsdelivr.net/npm/lightgallery@2.7.1/lightgallery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/lightgallery@2.7.1/plugins/thumbnail/lg-thumbnail.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/lightgallery@2.7.1/plugins/zoom/lg-zoom.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+    <script type="module" src="blog.js"></script>
+
+    <script>
+      const counters = document.querySelectorAll(".stat-number");
+      const speed = 200;
+
+      const animateStats = () => {
+        counters.forEach((counter) => {
+          const updateCount = () => {
+            const target = +counter.getAttribute("data-count");
+            const count = +counter.innerText;
+            const increment = Math.ceil(target / speed);
+
+            if (count < target) {
+              counter.innerText = count + increment;
+              setTimeout(updateCount, 10);
+            } else {
+              counter.innerText = target;
+            }
+          };
+          updateCount();
+        });
+      };
+
+      let triggered = false;
+      window.addEventListener("scroll", () => {
+        const section = document.querySelector(".stats-section");
+        const rect = section.getBoundingClientRect();
+        if (!triggered && rect.top < window.innerHeight - 100) {
+          triggered = true;
+          animateStats();
+        }
+      });
+    </script>
+  </body>
+</html>
